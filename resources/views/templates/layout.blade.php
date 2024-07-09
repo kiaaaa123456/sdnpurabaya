@@ -33,11 +33,10 @@
     <!-- Favicon  -->
     <link rel="icon" href="{{ asset('template') }}/css/images/.png">
     <style>
-        <style>.bg-gray {
-            background-color: gray;
+        .bg-gray {
+            background-color: rgb(233, 223, 223);
             padding: 20px;
             color: white;
-            /* Adjust text color for better visibility */
         }
 
         .container {
@@ -303,7 +302,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('template') }}/images/services-3.jpg"
+                        <img class="img-fluid" src="{{ asset('template') }}/images/pantomim.jpg"
                             alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
@@ -335,9 +334,8 @@
 
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
-                        <button class="button is-checked" data-filter="*">SEMUA</button>
-                        <button class="button" data-filter=".business">UPACARA BENDERA</button>
-                        <button class="button" data-filter=".finance">EKSTRAKURIKULER</button>
+                        <button class="button is-checked" data-filter=".business">UPACARA BENDERA</button>
+                        <button class="button" data-filter=".eskul">EKSTRAKURIKULER</button>
                         <button class="button" data-filter=".pramuka">PRAMUKA</button>
                         <button class="button" data-filter=".software">PEMBIASAAN</button>
                     </div> <!-- end of button group -->
@@ -354,26 +352,26 @@
                             <img class="img-fluid" src="{{ asset('template') }}/images/upacara3.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item finance">
+                        <div class="element-item eskul">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga2.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item finance">
+                        <div class="element-item eskul">
                             <a href="article.html">
                                 <img class="img-fluid" src="{{ asset('template') }}/images/olahraga.jpg"
                                     alt="alternative">
                             </a>
                         </div>
-                        <div class="element-item finance">
+                        <div class="element-item eskul">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga1.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item finance">
+                        <div class="element-item eskul">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga3.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item finance">
-                            <img class="img-fluid" src="{{ asset('template') }}/images/kesenian.jpg"
+                        <div class="element-item eskul">
+                            <img class="img-fluid h-4" src="{{ asset('template') }}/images/kesenian.jpg"
                                 alt="alternative">
                         </div>
                         <div class="element-item  pramuka">
