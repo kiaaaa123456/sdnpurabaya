@@ -136,8 +136,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="h1-large">SDN PURABAYA</h1>
-                        <p style="color: white">Penerimaan Peserta Didik Baru SDN PURABAYA 2023/2024</p>
-                        <a class="btn-solid-lg" href="https://github.com/4jean/lav_sms" target="_blank">Daftar</a>
+                        <p style="color: white">Penerimaan Peserta Didik Baru SDN PURABAYA 2024/2025</p>
+                        <a class="btn-solid-lg" href="https://bit.ly/ppdb-sdnpurabaya" target="_blank">Daftar</a>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -417,10 +417,6 @@
                                 <div class="swiper-slide">
                                     <img class="testimonial-image"
                                         src="{{ asset('template') }}/images/kepalasekolah.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Expense bed any sister depend changer off piqued one.
-                                        Contented continued any happiness instantly objection yet her allowance. Use
-                                        correct day new brought tedious. By come this been in. Kept easy or sons my it
-                                        how about some words here done”</p>
                                     <div class="testimonial-author">Usep S.Pd</div>
                                     <div class="testimonial-position">Kepala Sekolah</div>
                                 </div> <!-- end of swiper-slide -->
@@ -431,7 +427,7 @@
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/kelas6.jpg"
                                         alt="">
                                     <div class="testimonial-author">Aep Hidayat S.Pd</div>
-                                    <div class="testimonial-position">Guru Kelas 6</div>
+                                    <div class="testimonial-position">Guru Kelas 3</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
 
@@ -439,7 +435,7 @@
                                 <div class="swiper-slide">
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/kelas5.jpg"
                                         alt="Ust. Fauzi Ahmad Sidiq">
-                                    <div class="testimonial-author">Lina Herlina S.Pd</div>
+                                    <div class="testimonial-author">Lina Marlina S.Pd</div>
                                     <div class="testimonial-position">Guru Kelas 5</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
@@ -456,7 +452,7 @@
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/kelas3.jpg"
                                         alt="Ust. Ahmad Nabil">
                                     <div class="testimonial-author">Nanang Hidayat S.Pd</div>
-                                    <div class="testimonial-position">Guru Kelas 3</div>
+                                    <div class="testimonial-position">Guru Kelas 6</div>
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/kelas2.jpg"
@@ -473,7 +469,7 @@
                                 <div class="swiper-slide">
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/penjas.jpg"
                                         alt="Ust. Ahmad Nabil">
-                                    <div class="testimonial-author">Hudman Sayuti</div>
+                                    <div class="testimonial-author">Hudman Sayuti S.Pd</div>
                                     <div class="testimonial-position">Guru Olahraga</div>
                                 </div>
 
