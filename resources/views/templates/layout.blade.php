@@ -34,7 +34,7 @@
     <link rel="icon" href="{{ asset('template') }}/css/images/.png">
     <style>
         .bg-gray {
-            background-color: rgb(233, 223, 223);
+            background-color: rgb(249, 249, 248);
             padding: 20px;
             color: white;
         }
@@ -103,10 +103,13 @@
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#about">Tentang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Kegiatan</a>
+                        <a class="nav-link" href="#prestasi">Prestasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kegiatan">Kegiatan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -166,7 +169,9 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-icon">
-                            <span class="fas fa-camera"></span>
+                            <!-- Menggunakan ikon lightbulb -->
+                            <span class="fas fa-lightbulb"></span>
+
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Visi</h4>
@@ -179,7 +184,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-icon">
-                            <span class="fas fa-video"></span>
+                            <span class="fas fa-bullseye"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Misi</h4>
@@ -198,7 +203,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-icon">
-                            <span class="fas fa-paint-brush"></span>
+                            <span class="fas fa-flag-checkered"></span>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Tujuan</h4>
@@ -217,7 +222,7 @@
     </div> <!-- end of cards-1 -->
     <!-- end of introduction -->
 
-    <div class="split">
+    <div class="split" id="about">
         <div class="area-1">
             <img src="{{ asset('template') }}/images/fotbar.jpg" alt="Foto Baru" style="width: 100%; height: 100%;">
         </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
@@ -227,18 +232,13 @@
                     <div class="col-lg-12">
                         <!-- Text Container -->
                         <div class="text-container">
-                            <h2>Profile Sekolah SDN Purabaya</h2>
-                            <p>SDN Purabaya berkomitmen untuk memberikan pendidikan berkualitas tinggi dengan
-                                memperhatikan perkembangan holistik siswa. Kami percaya bahwa setiap anak memiliki
-                                potensi unik yang harus dikembangkan dengan baik.</p>
-                            <p><strong>VISI -</strong> Menjadi lembaga pendidikan yang unggul dalam prestasi dan
-                                berakhlak mulia, serta berwawasan lingkungan.</p>
-                            <p><strong>MISI -</strong> Meningkatkan kualitas pendidikan melalui pembelajaran yang aktif,
-                                kreatif, efektif, dan menyenangkan (PAKEM). Membentuk siswa yang berkarakter,
-                                berdisiplin, dan berintegritas tinggi.</p>
-                            <p><strong>KOMPETENSI -</strong> Kami memfokuskan pada pengembangan kompetensi akademik dan
-                                non-akademik siswa melalui berbagai kegiatan ekstrakurikuler dan program pendidikan
-                                karakter.</p>
+                            {{-- <h2>Profile Sekolah SDN Purabaya</h2> --}}
+                            <p>SDN Purabaya berada di desa Purabaya Kecamatan Leles Kabupaten Cianjur, Letak Sekolah
+                                berada di lingkungan pemukiman warga yang mayoritas bermata pencaharian sebagai petani
+                                DAN penghasil gula aren. Sekolah dekat dengan pusat pemerintahan desa purabaya dan
+                                dilalui jalan raya kecamatan serta di kelilingi berbagai jenis pepohonan yang menjadikan
+                                suasana atau udara sejuk. Sdn Purabaya juga berdekatan dengan 2 pesantren, Pendidikan
+                                Usia Dini (PAUD). DAN JUGA BERDEKATAN DENGAN TEMPAT WISATA SUMBER AIR PANAS</p>
                         </div><!-- end of text-container -->
                         <!-- end of text container -->
                     </div> <!-- end of col -->
@@ -249,7 +249,7 @@
 
 
     <!-- Services 1 -->
-    <div id="services" class="basic-1">
+    <div id="prestasi" class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -260,10 +260,9 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>Photo shooting and image editing services</h2>
-                        <p>who eat she defective applauded departure joy. Get dissimilar not introduced day her
-                            apartment Fully as taste he mr do smile abode every. Luckily we have words offered article
-                            led</p>
+                        <h2>Kreasi Seni Tarian</h2>
+                        <p>SDN PURABAYA menjadi juara 1 lomba Kreasi Seni Tarian TK Kecamatan Leles, dan melaju ke TK
+                            Kabupaten.</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -283,11 +282,8 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>Video production and editing services</h2>
-                        <p>Smile abode every. Luckily offered article led lasting country minutes nor old. Happen people
-                            things oh is oppose up parish effect. Law hands old outweigh humoured far appetite</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span
-                                class="fas fa-long-arrow-alt-right"></span></a>
+                        <h2>Nyanyi Solo</h2>
+                        <p>SDN PURABAYA meraih juara 1 Lomba nyanyi solo TK Kecamatan, dan melaju ke TK Kabupaten.</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -302,17 +298,14 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('template') }}/images/pantomim.jpg"
-                            alt="alternative">
+                        <img class="img-fluid" style="width: 80%; height: 100%"
+                            src="{{ asset('template') }}/images/pantomim.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>Digital illustration and animation service</h2>
-                        <p>Am if number no up period regard sudden better. Decisively surrounded all admiration and not
-                            you. Out particular sympathize not favourable introduced insipidity but ham rather</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span
-                                class="fas fa-long-arrow-alt-right"></span></a>
+                        <h2>Pantomim</h2>
+                        <p>SDN PURABAYA meraih juara 1 lomba Pantomim TK Kecamatan, dan melaju ke TK Kabupaten</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -322,107 +315,89 @@
 
 
     <!-- Projects -->
-    <div id="projects" class="filter bg-gray">
+    <div id="kegiatan" class="filter bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Kegiatan Sekolah</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
-
-                    <!-- Filter -->
                     <div class="button-group filters-button-group">
                         <button class="button is-checked" data-filter=".business">UPACARA BENDERA</button>
                         <button class="button" data-filter=".eskul">EKSTRAKURIKULER</button>
                         <button class="button" data-filter=".pramuka">PRAMUKA</button>
                         <button class="button" data-filter=".software">PEMBIASAAN</button>
-                    </div> <!-- end of button group -->
+                    </div>
                     <div class="grid">
-                        <div class="element-item business " style="cursor: pointer">
+                        <div class="element-item business" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/upacara2.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item business " style="cursor: pointer">
+                        <div class="element-item business" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/upacara.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item business " style="cursor: pointer">
+                        <div class="element-item business" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/upacara3.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item eskul">
+                        <div class="element-item eskul" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga2.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item eskul">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/olahraga.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item eskul" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/olahraga.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item eskul">
+                        <div class="element-item eskul" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga1.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item eskul">
+                        <div class="element-item eskul" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/olahraga3.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item eskul">
+                        <div class="element-item eskul" style="cursor: pointer">
                             <img class="img-fluid h-4" src="{{ asset('template') }}/images/kesenian.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka1.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka1.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka11.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka11.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka12.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka12.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka6.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka6.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka5.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka5.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  pramuka">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka4.jpg"
-                                    alt="alternative">
-                            </a>
+                        <div class="element-item pramuka" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/pramuka4.jpg"
+                                alt="alternative">
                         </div>
-                        <div class="element-item  software" style="cursor: pointer">
+                        <div class="element-item software" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/keagamaan.jpg"
                                 alt="alternative">
                         </div>
-                        <div class="element-item  software" style="cursor: pointer">
+                        <div class="element-item software" style="cursor: pointer">
                             <img class="img-fluid" src="{{ asset('template') }}/images/senam.jpg" alt="alternative">
                         </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div> <!-- end of filter -->
     <!-- end of projects -->
 
@@ -464,7 +439,7 @@
                                 <div class="swiper-slide">
                                     <img class="testimonial-image" src="{{ asset('template') }}/images/kelas5.jpg"
                                         alt="Ust. Fauzi Ahmad Sidiq">
-                                    <div class="testimonial-author">Lina</div>
+                                    <div class="testimonial-author">Lina Herlina S.Pd</div>
                                     <div class="testimonial-position">Guru Kelas 5</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
@@ -522,7 +497,7 @@
 
 
     <!-- Statistics -->
-    <div class="counter bg-gray">
+    {{-- <div class="counter bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -555,7 +530,7 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of counter -->
+    </div> <!-- end of counter --> --}}
     <!-- end of statistics -->
 
     <!-- Footer -->
@@ -565,47 +540,26 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-col first">
-                            <p class="p-small"><strong>sdn purabaya</strong> merupakah sekolah terakreditasi B</p>
+                            <p class="p-small"><strong>SDN PURABAYA</strong> merupakah sekolah negeri terakreditasi B
+                                yang berada di Desa Purabaya, Kec. Leles, Kab. Cianjur, Jawa Barat</p>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col second">
-                            <h6>Links</h6>
+                            <h6>Hubungi Kami</h6>
+                            <a href="https://maps.app.goo.gl/aV3kN7egvx1LR1hCA" target="_blank">
+                                <p><strong>Alamat: J2XC+79W, Purabaya, Kec. Leles, Kabupaten Cianjur, Jawa Barat
+                                        43273</strong></p>
+                            </a>
                             <ul class="list-unstyled li-space-lg p-small">
-                                <li>Important: <a href="terms.html">Terms & Conditions</a>, <a
-                                        href="privacy.html">Privacy
-                                        Policy</a></li>
-                                <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a
-                                        href="#">Illustrations</a></li>
-                                <li>Menu: <a href="#header">Home</a>, <a href="#services">Services</a>, <a
-                                        href="#projects">Projects</a>, <a href="#contact">Contact</a></li>
                             </ul>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col third">
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-instagram fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <p class="p-small">We would love to hear from you <a
-                                    href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+                            <p class="p-small">Klik icon di atas, untuk menanyakan informasi lebih lanjut</p>
                         </div> <!-- end of footer-col -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -626,6 +580,35 @@
         </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
+    {{-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> --}}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var iso = new Isotope('.grid', {
+                itemSelector: '.element-item',
+                layoutMode: 'fitRows'
+            });
+
+            var filtersElem = document.querySelector('.filters-button-group');
+            filtersElem.addEventListener('click', function(event) {
+                if (!event.target.matches('button')) {
+                    return;
+                }
+                var filterValue = event.target.getAttribute('data-filter');
+                iso.arrange({
+                    filter: filterValue
+                });
+
+                // Tambahkan kelas is-checked pada tombol yang diklik
+                filtersElem.querySelector('.is-checked').classList.remove('is-checked');
+                event.target.classList.add('is-checked');
+            });
+
+            // Inisialisasi filter dengan tombol pertama
+            iso.arrange({
+                filter: '.business'
+            });
+        });
+    </script>
 
 
     <!-- Back To Top Button -->
