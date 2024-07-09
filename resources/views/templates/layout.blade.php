@@ -66,6 +66,14 @@
         .area-2 {
             flex: 1;
         }
+
+        .element-item img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .element-item:hover img {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
@@ -99,7 +107,7 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#projects">Kegiatan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -134,7 +142,7 @@
         </div> <!-- end of header-content -->
 
         <!-- Image Background -->
-        <img src="{{ asset('template') }}/images/sekolah.jpg" alt="Sekolah" id="image-background"
+        <img src="{{ asset('template') }}/images/sd.jpg" alt="Sekolah" id="image-background"
             style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
         <!-- end of image background -->
     </header>
@@ -147,9 +155,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Complete social media services</h2>
-                    <p class="p-heading">Increasing impression interested expression he my at. Respect invited request
-                        charmed me warrant to. Expect no more pretty as do though so genius afraid cousin</p>
+                    <h2 class="h2-heading">Profile SDN Purabaya</h2>
+                    <p class="p-heading">SDN Purabaya berkomitmen untuk memberikan pendidikan berkualitas tinggi dengan
+                        memperhatikan perkembangan holistik siswa. Kami percaya bahwa setiap anak memiliki potensi unik
+                        yang harus dikembangkan dengan baik.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -161,9 +170,9 @@
                             <span class="fas fa-camera"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Photo Shooting</h4>
-                            <div class="card-text">Girl when of ye snug poor draw. Mistake totally of in chiefly.
-                                Justice visitor him entered for. Continue delicate as</div>
+                            <h4 class="card-title">Visi</h4>
+                            <div class="card-text">VISI - Terwujudnya Peserta Didik Yang Beriman, Berkarakter, Cerdas
+                                dan Mandiri.</div>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -174,9 +183,15 @@
                             <span class="fas fa-video"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Video Production</h4>
-                            <div class="card-text">Continue delicate as unlocked entirely mr relation diverted in.
-                                Known not end fully being style hose whom down kept</div>
+                            <h4 class="card-title">Misi</h4>
+                            <div class="card-text">1.Menciptakan pelajar yang mempunyai kesungguhan dalam
+                                beriman kepada Allah SWT. <br>
+                                2. MENUMBUHKAN KARAKTER peserta didik yang mencerminkan profil
+                                pelajar pancasila yang diterapkan dalam prilaku sehari hari.<br>
+                                3. MENANAMKAN ILMU
+                                PENGETAHUAN peserta didik yang MEMILIKI wawasan global DAN KEBINEKAAN <br>
+                                4. MENJADIKAN
+                                peserta didik yang mampu berinisiatif, percaya diri tanpa bantuan orang lain.</div>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -187,9 +202,12 @@
                             <span class="fas fa-paint-brush"></span>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Digital illustration</h4>
-                            <div class="card-text">Wrong do point avoid by fruit learn or in death. So passage however
-                                besides invited comfort elderly be me. Walls began</div>
+                            <h4 class="card-title">Tujuan</h4>
+                            <div class="card-text">1.Terbentuknya peserta didik yang taat dan tepat waktu melaksanakan
+                                ibadah. <br>
+                                2. Menghasilkan peserta didik yang mempunyai rasa kepedulian sosial yang tinggi. <br>
+                                3. Memiliki prestasi pembelajaran dan kemampuan literasi serta numerasi. <br>
+                                4. Menghasilkan peserta didik yang mandiri dalam menyelesaikan persoalan.</div>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -202,7 +220,7 @@
 
     <div class="split">
         <div class="area-1">
-            <img src="{{ asset('template') }}/images/profile.jpg" alt="Foto Baru" style="width: 100%; height: 100%;">
+            <img src="{{ asset('template') }}/images/fotbar.jpg" alt="Foto Baru" style="width: 100%; height: 100%;">
         </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
         <div class="area-2 bg-gray">
             <div class="container">
@@ -236,8 +254,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('template') }}/images/services-1.jpg" alt="alternative">
+                    <div class="image-container" style="width: 100%; height: 80%; overflow: hidden;">
+                        <img class="img-fluid" src="{{ asset('template') }}/images/nari.jpg" alt="alternative"
+                            style="width: 100%; height: 100%;">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -246,8 +265,6 @@
                         <p>who eat she defective applauded departure joy. Get dissimilar not introduced day her
                             apartment Fully as taste he mr do smile abode every. Luckily we have words offered article
                             led</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span
-                                class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -262,7 +279,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('template') }}/images/services-2.jpg" alt="alternative">
+                        <img class="img-fluid" src="{{ asset('template') }}/images/nyanyisolo.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -321,81 +338,86 @@
                         <button class="button is-checked" data-filter="*">SEMUA</button>
                         <button class="button" data-filter=".business">UPACARA BENDERA</button>
                         <button class="button" data-filter=".finance">EKSTRAKURIKULER</button>
-                        <button class="button" data-filter=".software">O2SN</button>
-                        <button class="button" data-filter=".software">PRAMUKA</button>
+                        <button class="button" data-filter=".pramuka">PRAMUKA</button>
+                        <button class="button" data-filter=".software">PEMBIASAAN</button>
                     </div> <!-- end of button group -->
                     <div class="grid">
-                        <div class="element-item finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/kesenian.jpg"
-                                    alt="alternative">
-                                <p><strong>Eskul Kesenian</strong> - delivered to and to major company in pharmace ski
-                                    jump from</p>
-                            </a>
+                        <div class="element-item business " style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/upacara2.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item business " style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/upacara.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item business " style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/upacara3.jpg"
+                                alt="alternative">
                         </div>
                         <div class="element-item finance">
-                            <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-2.jpg"
-                                    alt="alternative">
-                                <p><strong>Loans company</strong> - enjoyed minutes related as at on on. Is fanny dried
-                                    camping today</p>
-                            </a>
+                            <img class="img-fluid" src="{{ asset('template') }}/images/olahraga2.jpg"
+                                alt="alternative">
                         </div>
                         <div class="element-item finance">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-3.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/olahraga.jpg"
                                     alt="alternative">
-                                <p><strong>Refinance firm</strong> - distrusts an it contented perceived attending oh
-                                    nouns here</p>
                             </a>
                         </div>
-                        <div class="element-item business finance">
+                        <div class="element-item finance">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/olahraga1.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item finance">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/olahraga3.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item finance">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/kesenian.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-4.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka1.jpg"
                                     alt="alternative">
-                                <p><strong>Financial products</strong> - thoroughly estimating introduced stimulated why
-                                    but front</p>
                             </a>
                         </div>
-                        <div class="element-item business finance">
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-5.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka11.jpg"
                                     alt="alternative">
-                                <p><strong>Credit cards</strong> - enjoyed minutes related as at on on. Is fanny dried
-                                    out yesterday</p>
                             </a>
                         </div>
-                        <div class="element-item business software">
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-6.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka12.jpg"
                                     alt="alternative">
-                                <p><strong>Software robots</strong> - as often me goodness as reserved raptures to
-                                    mistaken</p>
                             </a>
                         </div>
-                        <div class="element-item business software">
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-7.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka6.jpg"
                                     alt="alternative">
-                                <p><strong>Company control</strong> - steepest oh screened he gravity he mr sixteen
-                                    esteems his</p>
                             </a>
                         </div>
-                        <div class="element-item business software">
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-8.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka5.jpg"
                                     alt="alternative">
-                                <p><strong>Audit reports</strong> - mile home its new way with high told said finished
-                                    to learn</p>
                             </a>
                         </div>
-                        <div class="element-item business software">
+                        <div class="element-item  pramuka">
                             <a href="article.html">
-                                <img class="img-fluid" src="{{ asset('template') }}/images/project-9.jpg"
+                                <img class="img-fluid" src="{{ asset('template') }}/images/pramuka4.jpg"
                                     alt="alternative">
-                                <p><strong>Big business</strong> - no horrible blessing landlord dwelling dissuade if we
-                                    can hear</p>
                             </a>
+                        </div>
+                        <div class="element-item  software" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/keagamaan.jpg"
+                                alt="alternative">
+                        </div>
+                        <div class="element-item  software" style="cursor: pointer">
+                            <img class="img-fluid" src="{{ asset('template') }}/images/senam.jpg" alt="alternative">
                         </div>
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
@@ -418,44 +440,69 @@
                         <div class="swiper-container card-slider">
                             <div class="swiper-wrapper">
 
-                                <!-- Slide -->
+                                <!-- Slide 1 -->
                                 <div class="swiper-slide">
                                     <img class="testimonial-image"
-                                        src="{{ asset('template') }}/images/testimonial-1.jpg" alt="alternative">
+                                        src="{{ asset('template') }}/images/kepalasekolah.jpg" alt="alternative">
                                     <p class="testimonial-text">“Expense bed any sister depend changer off piqued one.
                                         Contented continued any happiness instantly objection yet her allowance. Use
                                         correct day new brought tedious. By come this been in. Kept easy or sons my it
                                         how about some words here done”</p>
-                                    <div class="testimonial-author">Marlene Visconte</div>
-                                    <div class="testimonial-position">General Manager - Scouter</div>
+                                    <div class="testimonial-author">Usep S.Pd</div>
+                                    <div class="testimonial-position">Kepala Sekolah</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
 
-                                <!-- Slide -->
+                                <!-- Slide 2 -->
                                 <div class="swiper-slide">
-                                    <img class="testimonial-image"
-                                        src="{{ asset('template') }}/images/testimonial-2.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Expense bed any sister depend changer off piqued one.
-                                        Contented continued any happiness instantly objection yet her allowance. Use
-                                        correct day new brought tedious. By come this been in. Kept easy or sons my it
-                                        how about some words here done”</p>
-                                    <div class="testimonial-author">John Spiker</div>
-                                    <div class="testimonial-position">Team Leader - Vanquish</div>
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas6.jpg"
+                                        alt="">
+                                    <div class="testimonial-author">Aep Hidayat S.Pd</div>
+                                    <div class="testimonial-position">Guru Kelas 6</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
 
-                                <!-- Slide -->
+                                <!-- Slide 3 -->
                                 <div class="swiper-slide">
-                                    <img class="testimonial-image"
-                                        src="{{ asset('template') }}/images/testimonial-3.jpg" alt="alternative">
-                                    <p class="testimonial-text">“Expense bed any sister depend changer off piqued one.
-                                        Contented continued any happiness instantly objection yet her allowance. Use
-                                        correct day new brought tedious. By come this been in. Kept easy or sons my it
-                                        how about some words here done”</p>
-                                    <div class="testimonial-author">Stella Virtuoso</div>
-                                    <div class="testimonial-position">Design Chief - Bikegirl</div>
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas5.jpg"
+                                        alt="Ust. Fauzi Ahmad Sidiq">
+                                    <div class="testimonial-author">Lina</div>
+                                    <div class="testimonial-position">Guru Kelas 5</div>
                                 </div> <!-- end of swiper-slide -->
                                 <!-- end of slide -->
+
+                                <!-- Slide 4 -->
+                                <div class="swiper-slide">
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas4.jpg"
+                                        alt="Ust. Ahmad Nabil">
+                                    <div class="testimonial-author">Usep S.Pd</div>
+                                    <div class="testimonial-position">Guru Kelas 4</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+                                <div class="swiper-slide">
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas3.jpg"
+                                        alt="Ust. Ahmad Nabil">
+                                    <div class="testimonial-author">Nanang Hidayat S.Pd</div>
+                                    <div class="testimonial-position">Guru Kelas 3</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas2.jpg"
+                                        alt="Ust. Ahmad Nabil">
+                                    <div class="testimonial-author">Masropah S.Pd</div>
+                                    <div class="testimonial-position">Guru Kelas 2</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/kelas1.jpg"
+                                        alt="Ust. Ahmad Nabil">
+                                    <div class="testimonial-author">Dadah Julia S.Pd</div>
+                                    <div class="testimonial-position">Guru Kelas 1</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="testimonial-image" src="{{ asset('template') }}/images/penjas.jpg"
+                                        alt="Ust. Ahmad Nabil">
+                                    <div class="testimonial-author">Hudman Sayuti</div>
+                                    <div class="testimonial-position">Guru Olahraga</div>
+                                </div>
 
                             </div> <!-- end of swiper-wrapper -->
 
@@ -471,7 +518,8 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
+    </div>
+    <!-- end of slider-1 -->
     <!-- end of testimonials -->
 
 
@@ -499,9 +547,9 @@
                             <div class="counter-info">Good Reviews</div>
                         </div> <!-- end of counter-cell -->
                         <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3"
+                            <div data-purecounter-start="1" data-purecounter-end="100" data-purecounter-duration="3"
                                 class="purecounter">1</div>
-                            <div class="counter-info">Case Studies</div>
+                            <div class="counter-info">Akreditas</div>
                         </div> <!-- end of counter-cell -->
                     </div> <!-- end of counter-container -->
                     <!-- end of counter -->
@@ -512,28 +560,6 @@
     </div> <!-- end of counter -->
     <!-- end of statistics -->
 
-
-    <!-- Contact -->
-    {{-- <div id="contact" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Contact details</h2>
-                    <p class="p-heading">Of will at sell well at as. Too want but tall nay like old removing yourself
-                        today</p>
-                    <ul class="list-unstyled li-space-lg">
-                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Innovative, San Francisco, CA 94043, US</li>
-                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+81 720 2212</a></li>
-                        <li><i class="fas fa-envelope"></i> &nbsp;<a
-                                href="mailto:contact@site.com">contact@site.com</a></li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
-    <!-- end of contact --> --}}
-
-
     <!-- Footer -->
     <div id="contact">
         <div class="footer">
@@ -541,10 +567,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-col first">
-                            <h6>About Desi</h6>
-                            <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day
-                                his
-                                are unreserved indulgence. Him hard find read are you</p>
+                            <p class="p-small"><strong>sdn purabaya</strong> merupakah sekolah terakreditasi B</p>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col second">
                             <h6>Links</h6>
@@ -599,16 +622,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="#your-link">Your name</a></p>
+                    <p class="p-small">Copyright © 2024 SD Negeri Purabaya Powered By | FreshGradu</p>
                 </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Distributed by: <a href="https://themewagon.com/"
-                            target="_blank">Themewagon</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
+            </div> <!-- enf of row --> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
