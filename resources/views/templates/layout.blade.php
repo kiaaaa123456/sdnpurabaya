@@ -36,7 +36,8 @@
         .bg-gray {
             background-color: rgb(249, 249, 248);
             padding: 20px;
-            color: white;
+            color: black;
+            /* Changed to black for better readability on light background */
         }
 
         .container {
@@ -46,6 +47,11 @@
 
         .text-container {
             padding: 20px;
+            /* Added background color for text readability */
+            color: white;
+            /* Changed text color to white for contrast */
+            border-radius: 8px;
+            /* Optional: adds rounded corners */
         }
 
         .text-container h2 {
@@ -53,25 +59,41 @@
             margin-bottom: 10px;
         }
 
-        .text-container p {
-            margin: 10px 0;
+        .img-fluid {
+            width: 100%;
+            height: auto;
+            /* Maintains aspect ratio */
+        }
+
+        @media (max-width: 768px) {
+            .bg-gray {
+                order: 2;
+                /* Moves the text container below the image */
+            }
+
+            .img-fluid {
+                order: 1;
+                /* Ensures the image is displayed first */
+            }
         }
 
         .split {
             display: flex;
+            flex-wrap: wrap;
         }
 
         .area-1,
         .area-2 {
-            flex: 1;
+            flex: 1 1 50%;
         }
 
-        .element-item img {
-            transition: transform 0.3s ease-in-out;
+        .bg-gray {
+            background-color: #f8f9fa;
+            /* Example gray background */
         }
 
-        .element-item:hover img {
-            transform: scale(1.1);
+        .text-container {
+            padding: 20px;
         }
     </style>
 </head>
@@ -115,14 +137,14 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <span class="nav-item social-icons">
+                {{-- <span class="nav-item social-icons">
                     <span class="fa-stack">
                         <a href="#your-link">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
                         </a>
                     </span>
-                </span>
+                </span> --}}
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -223,29 +245,34 @@
     <!-- end of introduction -->
 
     <div class="split" id="about">
-        <div class="area-1">
-            <img src="{{ asset('template') }}/images/fotbar.jpg" alt="Foto Baru" style="width: 100%; height: 100%;">
-        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
-        <div class="area-2 bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Text Container -->
-                        <div class="text-container">
-                            {{-- <h2>Profile Sekolah SDN Purabaya</h2> --}}
-                            <p>SDN Purabaya berada di desa Purabaya Kecamatan Leles Kabupaten Cianjur, Letak Sekolah
-                                berada di lingkungan pemukiman warga yang mayoritas bermata pencaharian sebagai petani
-                                DAN penghasil gula aren. Sekolah dekat dengan pusat pemerintahan desa purabaya dan
-                                dilalui jalan raya kecamatan serta di kelilingi berbagai jenis pepohonan yang menjadikan
-                                suasana atau udara sejuk. Sdn Purabaya juga berdekatan dengan 2 pesantren, Pendidikan
-                                Usia Dini (PAUD). DAN JUGA BERDEKATAN DENGAN TEMPAT WISATA SUMBER AIR PANAS</p>
-                        </div><!-- end of text-container -->
-                        <!-- end of text container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of area-2 -->
-    </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-12">
+                <img src="{{ asset('template') }}/images/fotbar.jpg" alt="Foto Baru" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Text Container -->
+                            <div class="text-container">
+                                {{-- <h2>Profile Sekolah SDN Purabaya</h2> --}}
+                                <p>SDN Purabaya berada di desa Purabaya Kecamatan Leles Kabupaten Cianjur, Letak Sekolah
+                                    berada di lingkungan pemukiman warga yang mayoritas bermata pencaharian sebagai
+                                    petani DAN penghasil gula aren. Sekolah dekat dengan pusat pemerintahan desa
+                                    purabaya dan dilalui jalan raya kecamatan serta di kelilingi berbagai jenis
+                                    pepohonan yang menjadikan suasana atau udara sejuk. Sdn Purabaya juga berdekatan
+                                    dengan 2 pesantren, Pendidikan Usia Dini (PAUD). DAN JUGA BERDEKATAN DENGAN TEMPAT
+                                    WISATA SUMBER AIR PANAS</p>
+                            </div><!-- end of text-container -->
+                            <!-- end of text container -->
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of split -->
+
+
 
 
     <!-- Services 1 -->
@@ -548,7 +575,7 @@
                             <ul class="list-unstyled li-space-lg p-small">
                             </ul>
                         </div> <!-- end of footer-col -->
-                        <div class="footer-col third">
+                        {{-- <div class="footer-col third">
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -556,7 +583,7 @@
                                 </a>
                             </span>
                             <p class="p-small">Klik icon di atas, untuk menanyakan informasi lebih lanjut</p>
-                        </div> <!-- end of footer-col -->
+                        </div> <!-- end of footer-col --> --}}
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
